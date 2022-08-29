@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/css/bootstrap-theme.min.css">
+    <title>Login</title>
+</head>
+<html>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" 
+                data-toggle = "collapse" data-target = "#my-navbar-collapse">
+                    <span class="sr-only">NodeJS'e Giriş</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class= "navbar-brand" href="/">NodeJS'e Giriş</a>
+            </div>
+            <div class="collapse navbar-collapse navbar-right" id="my-navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="/login">Giriş</a></li>
+                    <li><a href="/login/signup">Kayıt</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">
+                            Sınıflar
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li><a href="#">1A</a></li>
+                            <li><a href="#">2A</a></li>
+                            <li><a href="#">3A</a></li>
+
+                            <li class="divider"></li>
+                            <li><a href="">Ayrık 4A</a></li>
+                            <li class="divider"></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        
+
+        <%- body %> 
+
+        
+
+        <script type="text/javascript" src="/public/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="/public/js/bootstrap.min.js"></script>
+    </body>
+</html>
